@@ -9,7 +9,6 @@ import java.util.Hashtable;
  * Created by laura on 2/5/14.
  */
 public class Anagrams {
-             Object
     Logger logger = Logger.getLogger(Anagrams.class);
 
     // Determines whether two strings are anagrams
