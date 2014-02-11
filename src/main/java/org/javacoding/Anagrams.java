@@ -59,6 +59,8 @@ public class Anagrams {
             }
         }
 
+        // If numCharacters is greater than 0, the first string has more
+        // non-space characters than the second string so they can't be anagrams
         if (numCharacters > 0) {
             stringsAreAnagrams = false;
         }
