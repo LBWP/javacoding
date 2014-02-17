@@ -13,7 +13,6 @@ public class Fibonacci {
     // 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233 ...
     public int findNthFib(int N) {
         // Handle the base cases of 0 and 1 to return 0 and 1 respectively
-
         if (N == 0) {
             return 0;
         } else if (N == 1) {
