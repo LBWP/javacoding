@@ -8,7 +8,7 @@ import org.junit.Test;
  * Created by laura on 2/5/14.
  */
 public class AnagramsTest {
-    private final Logger logger = Logger.getLogger(ReverseWordsTest.class);
+    private final Logger logger = Logger.getLogger(AnagramsTest.class);
 
     @Test
     public void stringsAreAnagramsTest() throws Exception {

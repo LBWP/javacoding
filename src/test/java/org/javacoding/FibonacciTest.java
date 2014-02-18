@@ -1,12 +1,14 @@
 package org.javacoding;
 
 import junit.framework.Assert;
+import org.apache.log4j.Logger;
 import org.junit.Test;
 
 /**
  * Created by laura on 2/11/14.
  */
 public class FibonacciTest {
+    private final Logger logger = Logger.getLogger(FibonacciTest.class);
 
     @Test
     public void findNthFibTest() throws Exception {
