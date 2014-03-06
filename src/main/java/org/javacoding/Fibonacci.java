@@ -6,7 +6,7 @@ import org.apache.log4j.Logger;
  * Created by laura on 2/11/14.
  */
 public class Fibonacci {
-    Logger logger = Logger.getLogger(Anagrams.class);
+    Logger logger = Logger.getLogger(Fibonacci.class);
 
     // Find the Nth number in the Fibonacci sequence, defined as:
     // Fn = Fn-1 + Fn-2 , where F0 = 0 and F1 = 1
